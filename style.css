@@ -3,6 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 .site-header{
@@ -35,15 +36,17 @@
 .link-site{
     width: 100px;
     height: 30px;
-    background-color: ;
     border-radius: 5px;
     position: absolute;
     left: 790px;
-    top: -5px;
+    top: -6px;
+    border: 2px solid black;
 }
 .link-site-one{
-    padding-top: 5px;
-    padding-left: 20px;
+    position: absolute;
+    top: 4px;
+    padding-left: 18px;
+    color: #263238;
 }
 .section-one{
     padding-top: 150px;
@@ -55,11 +58,11 @@
 }
 
 .section-one-text-one{
-    font-size: 80px;
+    font-size: 50px;
 }
 .section-one-text-two{
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .site-buttom{
     width: 380px;
@@ -71,14 +74,14 @@
 }
 .buttom-text{
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     position: absolute;
     top: 30px;
-    left: 100px;    
+    left: 90px;    
 }
 .site-img{
     margin-left: 850px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .site-img-2{
     position: absolute;
@@ -122,9 +125,9 @@ text-align: center;
     font-size: 30px;
 }
 .box-text-two{
-    font-size: 20px;
+    font-size: 15px;
     color: #263238;
-    padding-top: 30px;
+    padding-top: 15px;
     width: 350px;   
     padding-left: 50px;
     color:  #8F95A5;
@@ -138,7 +141,7 @@ text-align: center;
     border-radius: 5px;
 }
 .buttom-two-text{
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 50px;
     padding-top: 10px;
 }
@@ -160,7 +163,7 @@ text-align: center;
     font-size: 30px;
 }
 .buttom-three{
-    width: 183px;
+    width: 173px;
     height: 47px;
     background-color: #333;
     margin-top: 10px;
@@ -169,7 +172,7 @@ text-align: center;
 }
 .buttom-three-text{
     font-size: 20px;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 10px;
 }
 .box-three{
@@ -209,7 +212,7 @@ text-align: center;
 }
 .buttom-four-text{
     font-size: 20px;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-top: 10px;
 }
 .box-four-img{
@@ -256,5 +259,113 @@ top: 30px;
 .cost-2{
     font-size: 15px;
     color:  #8F95A5;
+}
+.section-four{
+    padding-top: 100px;
+    
+}
+.section-four-firsttext{
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+}
 
+.ul-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.li-item{
+    margin-left: 180px;
+}
+
+.section-four-text{
+    color: black;
+    font-size: 30px;
+}
+.section-four-text2{
+    color:#8F95A5;
+    font-size: 15px;
+    width: 300px;
+    padding-top: 30px;
+
+}
+.cena{
+    margin-top: 40px;
+    width: 198px;
+    height: 45px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    
+}
+.sup{
+    color: black;
+}
+.sub{
+ color:  #546269;
+ font-size: 15px;
+}
+.li-itemm{
+    margin-left: 180px;
+    padding-top: 30px;
+}
+.li-itemmm{
+    margin-left: 180px;
+    padding-bottom: 20px;
+}
+
+
+.last_body{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.last_img{
+    width: 60%;
+    
+}
+.last_title{
+    width: 40%;
+}
+h4{
+    font-size: 20px;
+    color: #8F95A5;
+    width: 90%;
+}
+h1{
+    font-size: 48px;
+}
+input{
+    padding: 20px;
+    width: 47%;
+    border: 1px solid #8F95A5;
+    color: #8F95A5;
+    border-radius: 10px;
+}
+button{
+    padding: 20px;
+    color: white;
+    background-color: #263238;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+}
+.the-end{
+    color: black;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.the-end-two{
+    color: #8F95A5;
+    font-size: 30px;
+    text-align: end;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
+.hr{
+    margin-right: 100px;
 }

@@ -10,14 +10,14 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-color:azure;
+    background-color:whitesmoke;
     position: fixed;
     z-index: 100;
 }
 .logo{
     margin-right: auto;
     color: black;
-    padding-left: 200px;
+    padding-left: 300px;
     font-size: 35px;
 }
 
@@ -35,7 +35,7 @@
 .link-site{
     width: 100px;
     height: 30px;
-    background-color: #00BAFC;
+    background-color: ;
     border-radius: 5px;
     position: absolute;
     left: 790px;
@@ -45,3 +45,38 @@
     padding-top: 5px;
     padding-left: 20px;
 }
+.section-one{
+    padding-top: 150px;
+}
+.section-one-text{
+    width: 300px;
+    height: 240px;
+    margin-left: 400px;
+}
+
+.section-one-text-one{
+    font-size: 50px;
+}
+.section-one-text-two{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.site-buttom{
+    width: 300px;
+    height: 100px;
+    background-color: #263238;
+    border-radius: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+.buttom-text{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 80px;    
+}
+.site-img{
+    margin-left: 800px;
+}
+
